@@ -11,7 +11,7 @@
 - Member 3: Hridhya - MEC
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://jadetinkherhack.netlify.app
 
 ### Project Description
 This platform aims to reduce food waste by connecting donors, volunteers, and charitable organizations to redistribute excess food to those in need.
