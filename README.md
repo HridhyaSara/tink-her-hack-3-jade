@@ -24,9 +24,9 @@ We have developed an app, in which users can enter the det
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
+- CSS,HTML,JavaScript
+- Node.js, Express.js, Mongoose,bcrypt,jsonwebtoken (JWT): 
+- mongoose,bcrypt,jsonwebtoken,cors
 - [Tools used]
 
 For Hardware:
