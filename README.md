@@ -1,27 +1,26 @@
-# [Project Name] 🎯
+# LeftOver Links 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Jade
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Lana - MEC
+- Member 2: Nandana - MEC
+- Member 3: Hridhya - MEC
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
-
+This platform aims to reduce food waste by connecting donors, volunteers, and charitable organizations to redistribute excess food to those in need.
+  
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Food wastage is a significant global issue, with tons of edible food being discarded daily while millions of people suffer from hunger. The lack of a structured and efficient system to redistribute surplus food leads to unnecessary waste and environmental harm. Many individuals and businesses are willing to donate excess food but lack a streamlined platform to connect with those in need.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
-
+We have developed an app, in which users can enter the det
 ## Technical Details
 ### Technologies/Components Used
 For Software:
