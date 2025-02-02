@@ -54,6 +54,19 @@ For Software:
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
+![Screenshot4](Add screenshot 1 here with proper name)
+*Add caption explaining what this shows*
+
+![Screenshot5](Add screenshot 2 here with proper name)
+*Add caption explaining what this shows*
+
+![Screenshot6](Add screenshot 3 here with proper name)
+*Add caption explaining what this shows*
+
+![Screenshot7](Add screenshot 3 here with proper name)
+*Add caption explaining what this shows*
+
+
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
