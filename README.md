@@ -20,8 +20,7 @@ This platform aims to reduce food waste by connecting donors, volunteers, and ch
 Food wastage is a significant global issue, with tons of edible food being discarded daily while millions of people suffer from hunger. The lack of a structured and efficient system to redistribute surplus food leads to unnecessary waste and environmental harm. Many individuals and businesses are willing to donate excess food but lack a streamlined platform to connect with those in need.
 
 ### The Solution
-We have developed an app, in which users can enter the det
-## Technical Details
+This project aims to bridge the gap between food donors, volunteers, and charitable organizations by providing a Food Waste Management Platform that facilitates food donation, volunteer participation, and awareness campaigns. By leveraging technology, the platform ensures that surplus food reaches the right beneficiaries, reducing waste and contributing to a sustainable solution to food insecurity.## Technical Details
 ### Technologies/Components Used
 For Software:
 - CSS,HTML,JavaScript
