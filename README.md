@@ -74,9 +74,9 @@ For Software:
 https://youtu.be/2V8-OUYWS58
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Nandana: frontend
+- Lana: backend
+- Hridhya: styling
 
 ---
 Made with ❤️ at TinkerHub
