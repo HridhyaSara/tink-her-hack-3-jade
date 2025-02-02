@@ -1,0 +1,80 @@
+home.html     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Food Waste Management Platform</title>
+    <link rel="stylesheet" href="stylessss.css">
+</head>
+<body>
+    <header>
+        <h1>Food Waste Management Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="donatefood.html">Donate Food</a></li>
+                <li><a href="foodwastetips.html">Food Waste Tips</a></li>
+                <li><a href="campaignsandevents.html">Campaigns & Events</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="yourprofile.html">Your Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Too much food? Someone's Hungry! Let's Connect.</h2>
+            <button onclick="showLoginModal()">Login</button>
+            <button onclick="showSignupModal()">Sign Up</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Food Waste Management Platform</p>
+    </footer>
+
+    <!-- Modal for Login -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('loginModal')">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <table>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" id="password" name="password" required></td>
+                    </tr>
+                </table>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal for Signup -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('signupModal')">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <table>
+                    <tr>
+                        <td><label for="signupEmail">Email:</label></td>
+                        <td><input type="email" id="signupEmail" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="signupPassword">Password:</label></td>
+                        <td><input type="password" id="signupPassword" name="password" required></td>
+                    </tr>
+                </table>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+style.css     /* Reset and Box Model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f9f5e1;
+    
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
+}
+
+/* Header Styling */
+header {
+    background-color: #3E2723; /* Dark Brown */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #c6e1c6;
+}
+
+/* Main Layout */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1; /* Ensures the main content grows and pushes the footer to the bottom */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Donate Food Page */
+#donate {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#donate form {
+    display: flex;
+    flex-direction: column;
+}
+
+#donate label {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+/* Adjust input field and label in the same line */
+#donate .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#donate input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 60%; /* Adjust the width of the input */
+}
+
+#donate button {
+    background-color: #3E2723; /* Dark Brown */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+#donate button:hover {
+    background-color: #3E1F18; /* Darker Brown */
+}
+
+/* Donation Status */
+#donationStatus {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #3E2723; /* Dark Brown */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #3E2723; /* Dark Brown */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: auto; /* Ensures footer stays at the bottom */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    #donate {
+        padding: 15px;
+    }
+
+    #donate input,
+    #donate button {
+        font-size: 1em;
+        padding: 10px;
+    }
+}

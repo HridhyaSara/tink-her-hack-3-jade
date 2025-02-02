@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Food - Food Waste Management Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Food Waste Management Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="donatefood.html">Donate Food</a></li>
+                <li><a href="foodwastetips.html">Food Waste Tips</a></li>
+                <li><a href="campaignsandevents.html">Campaigns & Events</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="yourprofile.html">Your Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="donate">
+            <form id="donationForm">
+                <div class="form-group">
+                    <label for="foodType">Type of Food:</label>
+                    <input type="text" id="foodType" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="quantity">Quantity (in kg):</label>
+                    <input type="number" id="quantity" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="manufacturedDate">Food Manufactured Date:</label>
+                    <input type="date" id="manufacturedDate" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="expiryDate">Expiry Date:</label>
+                    <input type="date" id="expiryDate" required>
+                </div>
+
+                <button type="submit">Donate Food</button>
+            </form>
+            <div id="donationStatus"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Food Waste Management Platform</p>
+    </footer>
+
+    <script>
+        // Form submission event listener
+        document.getElementById('donationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const foodType = document.getElementById('foodType').value;
+            const quantity = document.getElementById('quantity').value;
+            const manufacturedDate = document.getElementById('manufacturedDate').value;
+            const expiryDate = document.getElementById('expiryDate').value;
+
+            // Save the donation quantity in localStorage
+            localStorage.setItem('donatedAmount', quantity);
+
+            // Optionally, show a confirmation message
+            document.getElementById('donationStatus').innerText = `Thank you for donating ${quantity} kg of food!`;
+
+            // Redirect to the profile page
+            window.location.href = 'yourprofile.html';
+        });
+    </script>
+
+</body>
+</html>
